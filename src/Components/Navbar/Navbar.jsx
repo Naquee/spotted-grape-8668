@@ -1,4 +1,7 @@
-import { AddIcon, ArrowForwardIcon, AtSignIcon, ChatIcon, ChevronDownIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, PhoneIcon, RepeatIcon, SearchIcon, ViewOffIcon } from '@chakra-ui/icons'
+import { AddIcon, ArrowForwardIcon, AtSignIcon, ChatIcon, 
+  ChevronDownIcon, EditIcon, ExternalLinkIcon,
+   HamburgerIcon, PhoneIcon, RepeatIcon, SearchIcon, 
+   ViewOffIcon,Img } from '@chakra-ui/icons'
 import { Avatar, AvatarBadge, AvatarGroup, Badge, Box, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Flex, Grid, GridItem, Heading, Icon, IconButton, Image, Input, InputGroup, InputLeftElement, Menu, MenuButton, MenuItem, MenuList, Popover, PopoverArrow, PopoverContent, PopoverTrigger, Radio, RadioGroup, Spacer, useDisclosure  } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { Profiler } from 'react'
@@ -24,10 +27,11 @@ export const Navbar = () => {
   return (
    <div style={{}}>
     {/* function PlacementExample() { */}
-  <Flex border="1px  solid grey"  width="95%" m="auto"  gap="20px" h="80px" p="10px" position="sticky" mt="15px">
+  <Flex  width="95%" m="auto"  gap="20px" h="80px" p="10px" position="sticky" mt="15px">
         
 
-  <Button  mt="5px" ml="10px" as={IconButton}
+   <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/y3uyyviuphayegggbrvd"/>
+  {/* <Button  mt="5px" ml="10px" as={IconButton}
                colorScheme='blue' 
                onClick={onOpen}
                aria-label='Options'
@@ -40,10 +44,10 @@ export const Navbar = () => {
       </RadioGroup>
             <Avatar>
             <Avatar boxSize='3rem' onClick={onOpen}  aria-label='Options' bg='gery.500' />
-            </Avatar>
+            </Avatar> */}
       
 
-       <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
+       {/* <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
         <DrawerContent  gap="20px">
           <DrawerHeader borderBottomWidth='1px'>Sing UP OR Log In</DrawerHeader>
@@ -70,7 +74,7 @@ export const Navbar = () => {
                       <Button border="1px  black">Submit</Button>
           </DrawerBody>
         </DrawerContent>
-      </Drawer>
+      </Drawer> */}
 
         {/* <Menu>
               <MenuButton
@@ -93,7 +97,7 @@ export const Navbar = () => {
                       </MenuList>
             </Menu> */}
           
-           <Heading>DermaStore</Heading>
+           <Heading>DERMSTORE</Heading>
            <Spacer />
            {/* <Box> */}
             <InputGroup>

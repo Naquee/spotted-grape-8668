@@ -9,9 +9,9 @@ import styles from "../Navbar/Navbar.module.css"
 
 export const NavAllPages = () => {
   return (
-    <div style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" , }}>
+    <div style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px"  }}>
        
-  <Flex border="1px  grey" w="95%" m="auto" gap="10px" h="70px" p="9px">
+  <Flex border="5px  red" w="95%" m="auto" gap="10px" h="70px" p="9px">
       <Menu p="6px">
           <MenuButton  className={styles.Navbar_Flex3} fontSize="16px"  rightIcon={<ChevronDownIcon />} borderBottom="1px  blue">
             Brands  <ChevronDownIcon w={6} h={5}  />
