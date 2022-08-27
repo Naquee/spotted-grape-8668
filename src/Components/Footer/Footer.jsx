@@ -3,8 +3,48 @@ import styles from "./Footer.module.css";
 
  export const Footer = () => {
   return (
-    <div style={{border:'1px  black', margin:'30px'}}>
-      <div
+    <>
+    <div className={styles.Footercontainer}>
+    <div className={styles.first}>
+    <h5>Customer Service</h5>
+    <br />
+    <p>Help Center / FAQs</p>
+    <p>Returns</p>
+    <p>Shipping Information</p>
+    <p>Track my order</p>
+    <p>Cookies Setting</p>
+
+    </div>
+
+    <div className={styles.second}>
+        <div>
+        <h5>My Account</h5>
+        <br />
+        <p>Manage My Auto-Replenishments</p>
+        <p>My Rewards</p>
+        <p>My Favorites</p>
+        <p>Refer a Friend</p>
+        <p>Order History</p>
+
+        </div>
+        <div>
+        <h5>Company</h5>
+        <br />
+            <p>About Us</p>
+            <p>Press</p>
+            <p>What is Klarna?</p>
+        </div>
+        <div>
+            <h5>Legal</h5>
+            <br />
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Modern Slavery Statement</p>
+            <p>Product Recall</p>
+            <p>Accessibility</p>
+        </div>
+    </div>
+      {/* <div
         style={{
           // border: "1px  ",
           height: "280px",
@@ -83,11 +123,12 @@ import styles from "./Footer.module.css";
             src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/ting.png?v=1599565040"
             alt=""
           />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       
     </div>
+    </>
   );
 };
 

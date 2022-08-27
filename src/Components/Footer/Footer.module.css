@@ -1,4 +1,4 @@
-.RedHover h1:hover{
+/* .RedHover h1:hover{
     color: brown;
 }
 .RedHover h1{
@@ -15,4 +15,17 @@
 .imgHover img:hover{
     cursor: pointer;
     
+} */
+
+.Footercontainer{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.second{
+    display: flex;
+    gap: 50px;
 }
